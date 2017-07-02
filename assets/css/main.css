@@ -2930,6 +2930,10 @@
 
 /* Contact Method */
 
+	#phone {
+		height: 10em;
+	}
+
 	.contact-method {
 		margin: 0 0 2em 0;
 		padding-left: 3.25em;
