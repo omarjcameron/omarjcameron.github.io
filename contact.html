@@ -45,26 +45,27 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
       <main>
         <a href="index.html" class="home-button"><span class="fa fa-home"></span></a>
         <h1 class="mb-5">Contact Me</h1>
-        <form action="#" method="post">
+        <div class="kwes-form">
+        <form action="https://kwes.io/api/foreign/forms/zDhzTHLEMOnj1ijChSzw" method="post">
 
           <div class="row mb-4">
             <div class="col-md-12">
-              <input type="text" class="form-control" placeholder="Full Name">
+              <input type="text" class="form-control" placeholder="Full Name" rules="required|max:255">
             </div>
           </div>
           <div class="row mb-4">
             <div class="col-md-12">
-              <input type="text" class="form-control" placeholder="Email Address">
+              <input type="text" class="form-control" placeholder="Email Address" rules="required|max:255">
             </div>
           </div>
           <div class="row mb-4">
             <div class="col-md-12">
-              <input type="text" class="form-control" placeholder="Phone">
+              <input type="text" class="form-control" placeholder="Phone" rules="required|max:255">
             </div>
           </div>
           <div class="row mb-4">
             <div class="col-md-12">
-              <textarea name="#" id="" class="form-control" placeholder="Say a Little Hello" cols="30" rows="10"></textarea>
+              <textarea name="#" id="" class="form-control" placeholder="Say a Little Hello" rules="required|max:255" cols="30" rows="10"></textarea>
             </div>
           </div>
           <div class="row">
@@ -75,6 +76,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 
         </form>
+        </div>
 
       </main>
     </div>
@@ -89,6 +91,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.countdown.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://kwes.io/js/kwes.js" charset="utf-8"></script>
 
   </body>
 </html>
