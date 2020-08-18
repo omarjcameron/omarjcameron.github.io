@@ -313,7 +313,7 @@ body.offcanvas-open .site-wrap {
 }
 
 main, aside {
-  width: 100vh;
+  width: 100vw;
 }
 
 @media (min-width: 576px) {
