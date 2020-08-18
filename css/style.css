@@ -323,7 +323,7 @@ main, aside {
 }
 
 aside {
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   height: 400px;
   position: relative;
