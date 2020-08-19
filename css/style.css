@@ -312,25 +312,26 @@ body.offcanvas-open .site-wrap {
   padding-left: 0;
 }
 
-main, aside {
+div main, div picture img {
   width: 100%;
 }
 
 @media (min-width: 576px) {
-  main, aside {
+div main, div picture img {
     width: 50%;
   }
 }
 
-aside {
+/*img {
   background-position: center;
   background-size: cover;
   height: 400px;
   position: relative;
-}
+}*/
+
 
 @media (min-width: 576px) {
-  aside {
+  div picture img {
     height: 100vh;
     position: fixed;
     right: 0;
@@ -338,7 +339,7 @@ aside {
   }
 }
 
-main {
+div main {
   float: left;
   padding: 7%;
   position: relative;
